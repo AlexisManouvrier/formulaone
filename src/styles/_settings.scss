@@ -7,10 +7,14 @@
     box-sizing: border-box;
 }
 
+ol, ul {
+	list-style: none;
+}
+
 // colors 
 
 $black: #181818;
-$dar-grey: #303030;
+$dark-grey: #303030;
 $red: #cd1715;
 $yellow: #feeb00;
 $light-grey: #eeeeee;
