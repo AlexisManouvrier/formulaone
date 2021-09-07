@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Raleway:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 
 * {
     margin: 0;
@@ -21,6 +22,7 @@ $light-grey: #eeeeee;
 
 // fonts 
 
+$michro: 'Michroma', sans-serif;
 $raleway: 'Raleway', sans-serif;
 $lato: 'Lato', sans-serif;
 

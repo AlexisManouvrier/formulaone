@@ -10,6 +10,9 @@
     .content {
         width: 40%;
         position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
 
         .big-title {
             text-transform: uppercase;
@@ -22,20 +25,21 @@
         .text {
             font-family: $lato;
             color: $light-grey;
-            font-size: 2em;
+            font-size: 1.7em;
             letter-spacing: 2px;
         }
 
         .call-to-action {
             background: $black;
             height: 75px;
-            width: 110%;
+            width: 120%;
             padding: 1em 4em;
-            position: absolute;
+            position: relative;
             left: -5em; 
             display: flex;
             justify-content: flex-end;
             align-items: center;
+            clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
 
             a {
                 text-decoration: none;
