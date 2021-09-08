@@ -34,7 +34,7 @@ function App() {
       title: 'Jean Alexis',
       text: 'Président depuis 1995'
     },
-    {
+    { 
       img: '/images/Jean-Louis-Todt.jpg',
       title: 'Jean Louis Todt',
       text: 'Vice-Président depuis 1999'
