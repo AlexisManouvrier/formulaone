@@ -1,11 +1,12 @@
-//import React from 'react';
+
 import '../styles/index.scss'
 import Logo from './Logo';
-
 //import React, { useState } from 'react';
 import AsideMenu from './AsideMenu';
 
-const Navigation = () => {  
+const Navigation = () => { 
+    
+    //const btnBurger = [toggleMenu, setToggleMenu] = useState();   
     
     return (
         <>        
