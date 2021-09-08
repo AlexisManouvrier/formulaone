@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Raleway&display=swap');
+
+.App {
+  text-align: center;
+  position: fixed;
+}
+
+ .App-header {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  filter: contrast(60%);
+}
+
+/*form */
+
+img{
+  height: 30vh;
+  filter: grayscale(50%);
+ 
+}
+
+/*media queries
+ 
+  ***************************************************************
+  */
+@media screen and (min-width:611px){
+  img{
+    height: 100vh;
+    filter: grayscale(50%);
+  }
+}
+  
+

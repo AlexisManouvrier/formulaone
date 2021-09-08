@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Raleway&display=swap");
+.popup-body {
+  height: 90vh;
+  width: 50vw;
+  display: block;
+  background-color: black;
+  font-size: 30px;
+  color: #ddd;
+  position: fixed;
+  top: 1.5vh;
+  left: 55vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*form */
+.blackContainer {
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blackContainer .Form {
+  display: block;
+  width: 20em;
+  height: 5em;
+  position: absolute;
+}
+
+.blackContainer .Form .text {
+  display: block;
+}
+
+.blackContainer .Form .text h2 {
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.blackContainer .Form .text p {
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  text-align: justify;
+}
+
+.blackContainer .Form input {
+  width: 20em;
+  margin-top: 2vh;
+  height: 2vh;
+  background-color: #4b4b4b;
+  color: white;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+}
+
+.blackContainer .Form textarea {
+  width: 15.7em;
+  height: 10vh;
+  background-color: #4b4b4b;
+  color: white;
+  font-size: 18px;
+  margin-top: 2vh;
+  font-family: 'Lato', sans-serif;
+}
+
+.blackContainer .Form .submit {
+  margin-top: 3em;
+  background-color: #ED1C24;
+  border: 1.5px solid white;
+  width: 12em;
+  height: 2.5em;
+  -webkit-clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+          clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+}
+
+/*media queries
+ 
+  ***************************************************************
+  */
+@media screen and (min-width: 611px) {
+  .blackContainer {
+    position: absolute;
+    top: 0vh;
+    left: 38vw;
+    background-color: black;
+    color: white;
+    width: 80vw;
+    height: 100vh;
+    -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 20% 100%);
+            clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 20% 100%);
+  }
+  .blackContainer .Form {
+    display: block;
+    width: 45em;
+    height: 35em;
+    position: absolute;
+    left: 15em;
+    top: 7em;
+  }
+  .blackContainer .Form .text {
+    position: relative;
+    left: 4em;
+    width: 37em;
+  }
+  .blackContainer .Form .text h2 {
+    color: white;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    text-align: start;
+  }
+  .blackContainer .Form .text p {
+    color: white;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    text-align: start;
+    text-align: justify;
+  }
+  .blackContainer .Form input {
+    width: 45em;
+    margin-top: 2vh;
+    height: 4vh;
+    border-color: white;
+    background-color: #4b4b4b;
+    color: white;
+  }
+  .blackContainer .Form textarea {
+    width: 31.5em;
+    margin-top: 6vh;
+    height: 30vh;
+    border-color: white;
+    background-color: #4b4b4b;
+    font-size: 20px;
+  }
+  .blackContainer .Form button {
+    margin-top: 3em;
+    background-color: #cd6867;
+    border: 1.5px solid white;
+    width: 12em;
+    height: 2.5em;
+    -webkit-clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+            clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+  }
+}
+/*# sourceMappingURL=Form.css.map */
