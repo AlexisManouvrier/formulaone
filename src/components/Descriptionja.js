@@ -4,7 +4,7 @@ import React from 'react';
 
 const Descriptionja = () => {
     return (
-        <div className="popup-body">
+        <div className="popup-body">  
             
             <img className="imgdescr" src='./images/Jean-Alexis.jpg'alt="president"></img>
             <h1 className="h1descr">Jean Alexis</h1>
