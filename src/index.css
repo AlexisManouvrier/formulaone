@@ -1,11 +1,14 @@
 body {
-  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  justify-content: center; align-items: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #ddd;
+  background: rgb(61, 60, 60);
 }
 
 code {
@@ -14,54 +17,85 @@ code {
 }
 
 .App {
-  width: 800px;
-  margin: 30px;
+  width: 51.875rem;
+  margin-top: 12.5rem;
 }
 
 .cb-centermode {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   display: block;
 }
 .cb-centermode input {
-  margin-right: 7px;
+  margin-right: 0.4375rem;
 }
 
 /* card style start */
 
 .img-card {
-  border-radius: 4px;
+  border-radius: 0.25rem;
   background: #f5f5f5;
-  color: #666;
+  color: #667;
   overflow: hidden;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,0.2);
   transition: 0.3s;
 }
 
 .img-card:hover {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0,0,0,0.2);
 }
 
 .img {
-  width: 100%;
-  height: 200px;
+  width: 76%;
+  height: 12.5rem;
   object-fit: cover;
+  border: solid 2rem #181818;
+
+}
+.imgnone {
+  display: none;
 }
 
 .card-body {
-  padding: 15px;
+  padding: 0.9375rem;
+  height: 17.5rem;
+  background-color: #181818;
+  color:#ddd;
 }
 
 .card-title {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
+  color:#ddd;
 }
 
 .card-text {
   margin-top: 10px;
 }
-.card-button {
 
+.card-button {
+  cursor: pointer;
+  display: block;
+  margin: 1rem 2rem 0 7rem;
+  width: 6.25rem;
+  height: 1.875rem;
+  transform: skew(-20deg);
+  text-decoration: none;
+  border: none;
+  margin: 11rem 1rem 0 7rem;
+  margin-right: 0px;
+  position: absolute;
+  bottom: 1.25rem;
 }
+
+.btn:hover {
+  background-color: #ed1c24;
+  color: #ddd;
+  border: 0.0625rem solid #ddd;
+}
+
+
+
+
 
 /* card style end */
 
@@ -69,15 +103,79 @@ code {
 /* carousel slider style start */
 
 .slick-slide > div {
-  margin: 0 10px;
+  margin: 0 0.625rem;
 }
 
 .slick-list {
-  margin: 0 -10px;
+  margin: 0 -0.625rem;
 }
 
 .slick-slide *:focus{
   outline: none;
 }
 
-/* carousel slider style end */
+.popup-content {
+  top: 25vh !important;
+  left: 27vw !important;
+  width: 46.8125rem !important;
+    background-color: #181818 !important;
+  color: white;
+  display: flex;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+.popup-arrow {
+  visibility: hidden;
+}
+
+.popup-body {
+  padding: 5rem;
+  display: block;
+  background-color: #181818;
+  color: #ddd;
+  height: 27rem;
+}
+.card-buttondesc {
+  cursor: pointer;
+  display: block;
+  margin: 1rem 2rem 0 8rem;
+  width: 8rem;
+  height: 1.875rem;
+  transform: skew(-20deg);
+  text-decoration: none;
+  border: none;
+  margin: 11rem 1rem 0.375rem 28rem;
+  margin-right: 0rem;
+  position: absolute;
+  bottom: 1.25rem;
+  
+}
+.imgdescr {
+  width: 34%;
+  /* height: 8rem; */
+  object-fit: contain;
+  border: solid 2rem #181818;
+ 
+}
+.h1descr{
+  color: #ddd;
+  position: relative;
+  top: -16rem; right: -16rem;
+}
+.titredescr{
+  color: #ddd;
+  position: relative;
+  top: -16rem; right: -16rem;
+}
+.articledescript {
+  color: #ddd;
+  position: relative;
+  top: -8rem; right: -1.5rem;
+}
+
+/* .description {
+  color: #ddd;
+  background-color: #181818;
+} */
+
