@@ -51,56 +51,17 @@ header {
     }
 }
 
-#menu {
-    height: 100vh;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    background: $dark-grey;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    transition: .9s;
+    
 
-    .container-banniere {
-        //background: #eeeeee;
-        clip-path: polygon(0 0%, 100% 0%, 75% 100%, 0% 100%);
-        background: url(../../images/banniere-menu.jpg);
-        background-size: cover;
-    }
+    
 
-    .container-menu {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    } 
-
-    ul {
-        display: flex;
-        flex-direction: column;
-        align-self: center;
-        justify-content: space-between;
-        height: 75vh;
-    }
-
-    .navLink {
-        text-decoration: none;
-        font-family: $michro;
-        color: $light-grey;
-        font-size: 1.8em;
-        text-transform: uppercase;
-        letter-spacing: 3px; 
-        position: relative;
         
-        &:hover ~ ::after {
-            content: "";
-            position: absolute;
-            right: -10px;            
-        } 
-    }
+
         
-    .social-icons {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
+
+    
+
+    
+        
+    
+
