@@ -27,3 +27,16 @@ function Histoire() {
     }
 
 export default Histoire
+
+import MainSlider from "./components/MainSlider";
+
+function NewsUtils() {
+  return (
+    <div className="root">
+      <MainSlider />
+    </div>
+  );
+}
+
+export default NewsUtils;
+
