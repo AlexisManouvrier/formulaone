@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Popup from "reactjs-popup";
+ 
+import './styles/index.scss'; //styles for home page and navigation
 
 
 
