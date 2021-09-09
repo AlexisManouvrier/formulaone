@@ -24,11 +24,12 @@
         justify-content: space-between;
         height: 75vh;
     }
+
 .navLink {
             text-decoration: none;
             font-family: $michro;
             color: $light-grey;
-            font-size: 1.8em;
+            font-size: $linkNav-700;
             text-transform: uppercase;
             letter-spacing: 3px; 
             position: relative;

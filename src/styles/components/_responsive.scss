@@ -1,0 +1,52 @@
+@media screen and (max-width: 765px) {
+
+    .home-bg {
+
+        video { 
+            display: none!important; 
+        }
+    }
+
+    //menu aside respo
+    .visible {
+
+        grid-template-columns: 1fr;
+
+        .navLink {
+            font-size: $linkNav-320;
+        }        
+
+        .container-banniere {
+            display: none;
+        }
+
+        .container-menu ul {
+            height: 65vh;
+        }
+
+    }
+
+    //home page respo
+
+    .container-site {        
+        padding: 0 2em; 
+        
+        .content {
+            width: 100%;
+
+            .big-title {
+                font-size: $big-title;
+            }
+
+            .text {
+                font-size: $text-size-700;
+            }
+
+            .call-to-action {
+                width: 110%;
+            }            
+        }                
+    }    
+}
+
+
