@@ -37,5 +37,16 @@ function NewsUtils() {
   );
 }
 
+
 export default NewsUtils;
+
+
+function Annuaire() {
+    return (
+        <div className="root">
+            <Membre />
+        </div>
+       );
+}
+export default Membre;
 
