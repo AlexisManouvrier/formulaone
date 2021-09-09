@@ -1,5 +1,7 @@
 @import "_MainSlider.scss";
 @import "_PopUp.scss";
+@import "_Responsive.scss";
+
 @import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,400;1,700&display=swap%27);
 
 body {
@@ -13,4 +15,5 @@ body {
     -moz-osx-font-smoothing: grayscale;
     background: #ddd;
     background-color: #666;
+    margin: 0;
 }
