@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Slider from "react-slick";
-import Image from "./components/Image";
+import Image from "./images";
 import Popup from "reactjs-popup";
 import Slideshow from './Components/Histoire.js'
 import MainSlider from "./components/MainSlider";
