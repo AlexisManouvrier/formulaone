@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Slider from "react-slick";
 import Image from "./components/Image";
 import Popup from "reactjs-popup";
+import Slideshow from './Components/caroussel.js'
+
 
 //Import for home page and Navigation Router 
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
@@ -120,3 +122,13 @@ function App() {
 }
 
 export default App;
+
+function Histoire() {
+    return(
+        <div className="Carrou">
+        <Slideshow/>
+        </div>
+    )
+    }
+
+export default Histoire
