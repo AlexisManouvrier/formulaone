@@ -17,7 +17,7 @@ import './styles/index.scss'; //styles for home page and navigation
 
 ReactDOM.render(
   <React.StrictMode>
-    <App /> <Popup /> <Histoire /> <NewsUtils />
+    <App /> <Popup /> <Histoire /> <NewsUtils /> <Membre />
   </React.StrictMode>,
   document.getElementById('root')
 );
