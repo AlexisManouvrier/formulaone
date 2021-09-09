@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import Image from "./components/Image";
 import Popup from "reactjs-popup";
 import Slideshow from './Components/Histoire.js'
+import MainSlider from "./components/MainSlider";
+
 
 
 //Import for home page and Navigation Router 
@@ -27,8 +29,6 @@ function Histoire() {
     }
 
 export default Histoire
-
-import MainSlider from "./components/MainSlider";
 
 function NewsUtils() {
   return (
