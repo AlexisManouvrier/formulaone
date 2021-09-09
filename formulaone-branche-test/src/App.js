@@ -48,5 +48,5 @@ function Annuaire() {
         </div>
        );
 }
-export default Membre;
+export default Annuaire;
 
