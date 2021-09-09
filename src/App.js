@@ -1,7 +1,7 @@
 import MainSlider from "./components/MainSlider";
 
-function App() {
+function NewsUtils() {
   return <MainSlider />;
 }
 
-export default App;
+export default NewsUtils;
