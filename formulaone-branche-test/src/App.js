@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Slider from "react-slick";
 import Image from "./components/Image";
 import Popup from "reactjs-popup";
-import Slideshow from './Components/caroussel.js'
+import Slideshow from './Components/Histoire.js'
 
 
 //Import for home page and Navigation Router 
