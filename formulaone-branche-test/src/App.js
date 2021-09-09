@@ -20,7 +20,7 @@ import Descriptionja from './components/Descriptionja';
 
 function Histoire() {
     return(
-        <div className="Carrou">
+        <div className="Root">
         <Slideshow/>
         </div>
     )
