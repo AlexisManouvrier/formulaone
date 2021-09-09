@@ -3,6 +3,11 @@ import Slider from "react-slick";
 import Image from "./components/Image";
 import Popup from "reactjs-popup";
 
+//Import for home page and Navigation Router 
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import Home from './pages/Home';
+import './index';
+
 
 
 // Import css files
@@ -11,11 +16,19 @@ import "slick-carousel/slick/slick-theme.css";
 import Descriptionja from './components/Descriptionja';
 
 
-
-
-
-
 function App() {
+  
+  //Browser Router for navigation 
+  return (
+    <BrowserRouter>
+      <Switch>
+        <Route path="/" component={Home} />
+        <Route path="/a-propos" component={About} />
+        <Route component={NotFound}/>       
+      </Switch>
+    </BrowserRouter>
+  );
+//End browser 
 
   const config = {
     dots: true,
@@ -85,9 +98,7 @@ function App() {
         <span>Enable Center Mode</span>
       </label> */}
       <Image />
-      
-      
-
+        
       <Slider {...settings}>
         {products.map((x, i) => {
           return <div key={i} className="img-card">
