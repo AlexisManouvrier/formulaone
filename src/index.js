@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import NewsUtils from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <NewsUtils />
   </React.StrictMode>,
   document.getElementById("root")
 );
