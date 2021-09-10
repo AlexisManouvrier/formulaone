@@ -72,7 +72,7 @@
         height: 100vh;
         width: 100vw;               
         z-index: -100;
-        filter: brightness(.5);
+        filter: brightness(0.7);
         background: url(../../images/home-bg.jpg) no-repeat center center fixed;
         background-size: cover;
 
@@ -85,3 +85,9 @@
         }
     }
 }
+
+/*@media screen and (max-width: 567px) {
+    .home-bg {
+        filter: brightness(.2);
+    }
+}*/

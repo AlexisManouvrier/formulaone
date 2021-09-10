@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.scss';
 import App from './App';
+
+import 'react-slideshow-image/dist/styles.css';
 //import NewsUtils from "./App";
 
 

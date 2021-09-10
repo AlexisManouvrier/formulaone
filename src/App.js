@@ -8,8 +8,7 @@ import { NotFound } from 'http-errors';
 //import News from './pages/News';
 import MainSlider from './pages/MainSlider';
 import Contact from './pages/Contact';
-
-//Fanny import
+import PageHistoire from './pages/PageHistoire';
 
 const App = () => {
   return (
@@ -17,6 +16,7 @@ const App = () => {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/news" exact component={MainSlider} />
+        <Route path="/histoire" exact component={PageHistoire} />
         <Route path="/contact" exact component={Contact} />
         <Route component={NotFound}/>       
       </Switch>
