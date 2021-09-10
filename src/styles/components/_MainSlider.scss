@@ -1,0 +1,121 @@
+.slider {
+    width: 800px;
+    margin: 30px;
+}
+
+.img-card {
+    background: #f5f5f5;
+    color: #666;
+    overflow: hidden;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 23rem;
+}
+
+.img-card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img {
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 10px;
+    display: block;
+    background-color: #181818;
+    color: #ddd;
+    height: 13rem;
+    position: relative;
+}
+
+.card-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: block;
+}
+
+.card-text {
+    margin-top: 0.3rem;
+    font-weight: 200;
+    font-size: 0.8rem;
+    display: block;
+}
+
+.btn {
+    cursor: pointer;
+    display: block;
+    width: 80px;
+    height: 25px;
+    transform: skew(-20deg);
+    text-decoration: none;
+    border: none;
+    font-weight: 200;
+    font-size: 0.8rem;
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+}
+
+.btn:hover {
+    background-color: #ed1c24;
+    color: #ddd;
+    border: 1px solid #ddd;
+}
+
+.slick-slide > div {
+    margin: 0 10px;
+}
+
+// .slick-list {
+//     margin: 0 -10px;
+// }
+
+.slick-slide *:focus {
+    outline: none;
+}
+
+.slick-next:before {
+    content: ">>>" !important;
+    font-size: 1.5rem !important;
+}
+
+.slick-next:hover:before {
+    color: #ed1c24 !important;
+}
+
+.slick-prev:before {
+    content: "<<<" !important;
+    font-size: 1.5rem !important;
+    margin: -10px;
+}
+
+.slick-prev:hover:before {
+    color: #ed1c24 !important;
+}
+
+.slick-dots li button:before {
+    content: "＿" !important;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    font-size: 2rem !important;
+    opacity: 100% !important;
+    color: white !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: red !important;
+}
+
+.slick-dots li button:hover:before {
+    color: red !important;
+}
+
+.slick-dots li {
+    margin: 0 0.6rem !important;
+}
