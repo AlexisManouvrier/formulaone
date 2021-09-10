@@ -3,7 +3,7 @@
 
 
 @media (min-width: 1300px) {
-.menu-container1, .menu-container2, .menu-container3 {
+.menu-container-histoire1, .menu-container-histoire2, .menu-container-histoire3 {
     height: 100vh;
     width: 100vw;
     background: black;
@@ -11,28 +11,28 @@
     grid-template-columns: 1fr 1fr;
 	font-family: 'Lato', sans-serif;
 
-    .container-banniere1 {
+    .container-banniere-histoire1 {
         background: #eeeeee;
         clip-path: polygon(0 0%, 100% 0%, 75% 100%, 0% 100%);
         background: url(./histoireferrari-image.jpg);
 		background-size: cover; 
 	}
 
-	.container-banniere2 {
+	.container-banniere-histoire2 {
         background: #eeeeee;
         clip-path: polygon(0 0%, 100% 0%, 75% 100%, 0% 100%);
         background: url(./histoireF1.jpg);
 		background-size: cover; 
 	}
 	
-	.container-banniere3 {
+	.container-banniere-histoire3 {
         background: #eeeeee;
         clip-path: polygon(0 0%, 100% 0%, 75% 100%, 0% 100%);
         background: url(./scuderia.jpg);
 		background-size: cover; 
 	}
 
-	.container-content1, .container-content2, .container-content3 {
+	.container-content-histoire1, .container-content-histoire2, .container-content-histoire3 {
 		color: white;
 		font-size: 24px ;
 		font: bold;
@@ -56,7 +56,7 @@
 }
 
 @media (min-width: 751px) and (max-width: 1300px) {
-	.menu-container1, .menu-container2, .menu-container3 {
+	.menu-container-histoire1, .menu-container-histoire2, .menu-container-histoire3 {
 		height: 100vh;
 		width: 100vw;
 		background: black;
@@ -65,7 +65,7 @@
 		font-family: 'Lato', sans-serif;
 
 	
-		.container-banniere1 {
+		.container-banniere-histoire1 {
 			background: #eeeeee;
 			clip-path: polygon(0 0%, 100% 0%, 75% 100%, 0% 100%);
 			background: url(./histoireferrari-image.jpg);
@@ -74,7 +74,7 @@
 
 		}
 	
-		.container-banniere2 {
+		.container-banniere-histoire2 {
 			background: #eeeeee;
 			clip-path: polygon(0 0%, 100% 0%, 75% 100%, 0% 100%);
 			background: url(./histoireF1.jpg);
@@ -83,7 +83,7 @@
 
 		}
 		
-		.container-banniere3 {
+		.container-banniere-histoire3 {
 			background: #eeeeee;
 			clip-path: polygon(0 0%, 100% 0%, 75% 100%, 0% 100%);
 			background: url(./scuderia.jpg);
@@ -92,7 +92,7 @@
 
 		}
 	
-		.container-content1, .container-content2, .container-content3 {
+		.container-content-histoire1, .container-content-histoire2, .container-content-histoire3 {
 			color: white;
 			font-size: 24px ;
 			font: bold;
@@ -118,7 +118,7 @@
 @media (max-width: 750px) and (min-width: 350px) {
 	
 	
-.menu-container1, .menu-container2, .menu-container3 {
+.menu-container-histoire1, .menu-container-histoire2, .menu-container-histoire3 {
     height: 100vh;
     width: 100vw;
     background: black;
@@ -127,7 +127,7 @@
 	flex-direction: column;
 	
 
-	.container-content1, .container-content2, .container-content3 {
+	.container-content-histoire1, .container-content-histoire2, .container-content-histoire3 {
 		color: white;
 		font-size: 12px ;
 		text-align: center;
@@ -186,7 +186,7 @@
 
 @media (max-width: 350px) {
 
-	.menu-container1, .menu-container2, .menu-container3 {
+	.menu-container-histoire1, .menu-container-histoire2, .menu-container-histoire3 {
 		height: 100%;
 		width: 100%;
 		background: black;
@@ -194,13 +194,13 @@
 		font-family: 'Lato', sans-serif;
 		flex-direction: column;
 
-		.menu-container1, .menu-container2, .menu-container3 ::before{
+		.menu-container-histoire1, .menu-container-histoire2, .menu-container-histoire3 ::before{
 			background: url(./scuderia.jpg);
 			filter: grayscale(90%);
 			background-position: center;
 		}
 
-		.container-content1, .container-content2, .container-content3 {
+		.container-content-histoire1, .container-content-histoire2, .container-content-histoire3 {
 			color: white;
 			font-size: 12px ;
 			text-align: center;
