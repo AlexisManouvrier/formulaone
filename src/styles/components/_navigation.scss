@@ -20,6 +20,35 @@ header {
     #logo-nav {
         cursor: pointer;
     } 
+
+    .btn-burger {
+        height: 30px;
+        width: 60px;
+        position: relative;
+        cursor: pointer;       
+    
+        &::before {
+            content: " ";
+            height: 5px;
+            width: 100%;
+            display: block;            
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: #eeeeee;
+        }
+    
+    &::after {
+            content: " ";
+            height: 5px;
+            width: 100%;
+            display: block;            
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background: #eeeeee;
+        }
+    }   
 }
 
 #menu {    

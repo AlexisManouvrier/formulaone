@@ -1,22 +1,26 @@
 
 import '../styles/index.scss'
 import Logo from './Logo';
-//import React, { useState } from 'react';
+import React, { useState } from 'react';
 import AsideMenu from './AsideMenu';
-import BtnBurger from './BtnBurger';
 
 const Navigation = () => { 
     
-    //const btnBurger = [toggleMenu, setToggleMenu] = useState();   
+    const [toggleMenu, setToggleMenu] = useState(false); 
+    const toggleNav = () => {
+        setToggleMenu(!toggleMenu)
+    }  
     
     return (
         <>        
         <header>
             <nav>        
                 <Logo />
-                <BtnBurger />
-            </nav> 
-            <AsideMenu />                     
+                <span className="btn-burger" onClick={toggleNav}></span> 
+            </nav>
+            {toggleMenu && (
+              <AsideMenu /> 
+            )}                                 
         </header>                    
         </>        
     );   
