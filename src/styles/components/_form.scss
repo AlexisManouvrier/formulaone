@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Raleway&display=swap');
+
+$black: #181818;
+
+header {
+  position: inherit;
+}
+
+.container-contact {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: $black;
+  color: white;
+
+  .left {
+    clip-path: polygon(0 0%, 75% 0%, 100% 100%, 0% 100%);
+    background: url(../../images/FormImage.jpg);
+    background-size: cover;
+    background-position: center; 
+    
+    .FormImage {
+      display: block;
+      width: 100%;
+      visibility: hidden; //may be we got to remove this to visible
+    }
+  }
+
+  .right {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 3em;
+
+    .Form {
+      width: 100%;
+      max-width: 550px;
+    }
+    
+    
+    h2 {
+      font-size: 25px;
+      font-family: 'Raleway', sans-serif;
+      text-transform: uppercase;
+      margin-bottom: 1.5em;      
+    }
+
+    p {
+      font-size: 1.1em;
+      font-family: 'Lato', sans-serif;
+      text-align: justify;
+    }
+
+    input{
+      width: 100%;
+      margin-top: 1.5em;
+      height: 2em;
+      padding: .5em;
+      background-color: #4b4b4b;
+      color:white;
+      font-size: 14px;
+      font-family: 'Lato', sans-serif;
+    }
+
+    textarea{
+      width: 100%;
+      height: 8em;
+      padding: .5em;
+      background-color: #4b4b4b;
+      color:white;      
+      margin-top:1.5em;
+      font-family: 'Lato', sans-serif;
+    }
+
+    .Submit{
+      margin-top: 3em;
+      background-color: #ED1C24 ;
+      color: #eeeeee;    
+      border: 0;
+      width: 12em;
+      height: 2.5em;
+      clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+      transition: all .5s;
+
+      &:hover {
+        background-color: #edc71c;
+        color: #181818;
+      }
+    }    
+  }
+}
+  
+@media screen and (min-width: 451px) and (max-width:800px) {
+
+  .container-contact {
+    display: flex;
+    flex-direction: column;    
+
+    .left {
+      clip-path: inherit;
+      height: 25vh;
+      background-position: top;
+    }
+
+    .right {
+      height: calc(100vh - 25vh);
+    }
+  }
+ }
+
+ @media screen and (max-width:450px) {
+
+  .container-contact {
+    display: flex;
+    flex-direction: column;  
+
+    .left {
+      clip-path: inherit;
+      height: 15vh;
+      background-position: top;
+    }
+  
+    .right {
+      padding: 2em;
+      height: calc(100vh - 15vh);
+
+      h2 {
+        font-size: 19px;
+        margin-bottom: 1em;
+      }
+
+      p {
+        font-size: .9em;
+        line-height: 1.4em;
+      }
+
+      .Submit {
+        margin-top: 2em;
+      }
+    }
+
+  }
+  
+ }
+
+  

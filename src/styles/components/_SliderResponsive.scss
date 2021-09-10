@@ -1,0 +1,45 @@
+@media screen and (max-width: 480px) {
+    .body {
+        font-size: 2rem;
+    }
+
+    .slider {
+        width: 300px;
+    }
+
+    .popup-content {
+        height: 40rem !important;
+        width: 100% !important;
+        display: block !important;
+        top: 20vh !important;
+        left: 0 !important;
+    }
+
+    .img-detail {
+        width: 92%;
+    }
+
+    .title-detail {
+        padding-top: 0;
+        width: 22rem;
+    }
+
+    .text-detail {
+        width: 22rem;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .body {
+        font-size: 2rem;
+    }
+
+    .slider {
+        width: 500px;
+    }
+}
+@media screen and (min-width: 800px) {
+    .slider {
+        width: 700px;
+    }
+}
